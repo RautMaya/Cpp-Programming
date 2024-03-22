@@ -6,10 +6,10 @@ int main()
     cout<<"Enter a Year:";
     cin>>year;
 
-    if(year/4==0){
-        if(year/100==0)
+    if(year%4==0){
+        if(year%100==0)
         {
-            if(year/400==0){
+            if(year%400==0){
                 cout<<year<<"is a leap year.";
 
                 }
