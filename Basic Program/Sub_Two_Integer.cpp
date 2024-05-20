@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-    int first_number,secound_number,sub;
+    int a,b,sub;
 
     cout<<"Enter Two integer:";
-    cin>>first_number>>secound_number;
+    cin>>a>>b;
 
-    sub=first_number-secound_number;
+    sub=a-b;
 
-    cout<<first_number<<"-"<<secound_number<<"="<<sub;
+    cout<<a<<"-"<<b<<"="<<sub;
 
 
     return 0;
