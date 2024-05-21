@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-    int First_Number,Second_Number,sum;
+    int a,b,sum;
 
     cout<<"Enter Two integer:";
-    cin>>First_Number,Second_Number;
+    cin>>a,b;
 
-    sum=First_Number+Second_Number;
+    sum=a+b;
 
-    cout<<First_Number<<"+"<<Second_Number<<"="<<sum;
+    cout<<a<<"+"<<b<<"="<<sum;
 
 
     return 0;
