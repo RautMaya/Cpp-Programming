@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    int n=8,i;
-    int range=11;
+    int n=10,i;
+    int range=15;
     for(i=1;i<=range;++i)
         cout<<n<<"*"<<"="<<n*i<<endl;
 
