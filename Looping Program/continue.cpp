@@ -3,16 +3,14 @@
 using namespace std;
 int main()
 {
-    for(int i=0;i<=10;i++)
+    for(int i=1;i<=8;i++)
     {
-        if(i==4)
+        if(i==5)
         {
             continue;
         }
-        cout<<i<<"\n";
+        cout<<i<<endl;
     }
     return 0;
 
 }
-
-
