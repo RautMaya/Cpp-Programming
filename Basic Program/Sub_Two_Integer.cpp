@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-    int a,b,sub;
+    int n1,n2,sub;
 
     cout<<"Enter Two integer:";
-    cin>>a>>b;
+    cin>>n1>>n2;
 
-    sub= a-b;
+    sub= n1-n2;
 
-    cout<<a<<"-"<<b<<"="<<sub;
+    cout<<n1<<"-"<<n2<<"="<<sub;
 
 
     return 0;
