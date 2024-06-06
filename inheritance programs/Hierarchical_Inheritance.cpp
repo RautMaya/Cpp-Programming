@@ -3,11 +3,11 @@ using namespace std;
 class A
 {
    public:
-       int x,y;
+       int n1,n2;
        void getdata()
        {
-           cout<<"Enter value of x,y:\n";
-           cin>>x>>y;
+           cout<<"Enter value of n1,n2:\n";
+           cin>>n1>>n2;
        }
 
 };
@@ -16,7 +16,7 @@ class B:public A
 public:
     void product()
     {
-        cout<<"\nProduct="<<x*y<<endl;
+        cout<<"\nProduct="<<n1*n2<<endl;
     }
 };
 class C:public A
@@ -24,7 +24,7 @@ class C:public A
 public:
     void sum()
     {
-        cout<<"\nSum="<<x+y<<endl;
+        cout<<"\nSum="<<n1+n2<<endl;
     }
 };
 int main()
