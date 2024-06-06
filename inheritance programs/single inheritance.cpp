@@ -4,7 +4,7 @@ using namespace std;
 class A
 {
 public:
-    void func()
+    void function()
     {
         cout<<"Inherited";
     }
@@ -16,5 +16,5 @@ class B:public A
 int main()
 {
     B b;
-    b.func();
+    b.function();
 }
