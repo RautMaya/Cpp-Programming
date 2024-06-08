@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int i=0,j=0,sp=0;
-    int rows=5;
+    int rows=6;
     while(i<rows)
     {
         while(sp<(rows-i-1))
