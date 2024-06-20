@@ -7,7 +7,7 @@ int main()
       cout<<i<<" ";
       ++i;
   }
-   while (i<=7);
+   while (i<=5);
   return 0;
 }
 
