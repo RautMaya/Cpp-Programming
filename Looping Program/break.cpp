@@ -5,7 +5,7 @@ int main()
 {
     for(int i=1;i<=8;i++)
     {
-        if(i==4)
+        if(i==1)
         {
           break;
         }
