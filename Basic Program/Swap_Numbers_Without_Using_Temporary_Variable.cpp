@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a=5,b=10,temp;
+    int a=11,b=55,temp;
 
     cout<<"Before Swapping."<<endl;
     cout<<"a="<<a<<",b="<<b<<endl;
