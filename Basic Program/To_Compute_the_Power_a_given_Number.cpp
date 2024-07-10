@@ -7,7 +7,7 @@ int main()
     cin>>base>>power;
     while(power!=0)
     {
-        result*=base;
+        result=base*result;
         power--;
     }
     cout<<result;
