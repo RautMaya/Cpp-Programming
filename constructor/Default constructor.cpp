@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
-class constant
+class construct
 {
 public:
+    int a,b;
     construct()
     {
         a=10;
