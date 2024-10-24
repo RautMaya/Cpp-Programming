@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-    int a,b,Multiplication;
+    int N1,N2,Multiplication;
 
     cout<<"Enter Two integer:";
-    cin>>a>>b;
+    cin>>N1>>N2;
 
-    Multiplication=a*b;
+    Multiplication=N1*N2;
 
-    cout<<a<<"*"<<b<<"="<<Multiplication;
+    cout<<N1<<"*"<<N2<<"="<<Multiplication;
 
 
     return 0;
