@@ -3,17 +3,17 @@ using namespace std;
 class construct
 {
 public:
-    int a,b;
+    int x,y;
     construct()
     {
-        a=10;
-        b=20;
+        x=10;
+        y=20;
     }
 };
 int main()
 {
-  construct c;
-  cout<<"a:"<<c.a<<endl;
-  cout<<"b:"<<c.b<<endl;
+  construct z;
+  cout<<"x:"<<z.x<<endl;
+  cout<<"y:"<<z.y<<endl;
   return 0;
 }
