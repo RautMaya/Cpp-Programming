@@ -5,9 +5,9 @@ class sample
 {
     int id;
 public:
-    void init (int x)
+    void init (int a)
     {
-        id =x;
+        id =a;
     }
     void display()
     {
