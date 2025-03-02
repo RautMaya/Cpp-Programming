@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-    int n1,n2,Division;
+    int a,b,Division;
 
     cout<<"Enter Two integer:";
-    cin>>n1>>n2;
+    cin>>a>>b;
 
-    Division=n1/n2;
+    Division=a/b;
 
-    cout<<n1<<"/"<<n2<<"="<<Division;
+    cout<<a<<"/"<<b<<"="<<Division;
 
 
     return 0;
